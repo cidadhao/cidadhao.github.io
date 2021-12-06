@@ -1,0 +1,83 @@
+* {
+    background-color: #000000;
+}
+
+h1 {
+text-align: center;
+color: #ffffff;
+}
+
+.troll {
+	display: auto;
+    margin-left: 550px;
+    margin-right: 550px;
+    width: 500px;
+    margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.trollo {
+    display: auto;
+    margin-left: 650px;
+    margin-right: 60px;
+    width: 500px;
+    margin-bottom: 30px;
+	margin-top: 320px;
+}
+
+.person {
+    display: auto;
+    margin-left: 562px;
+    margin-right: 0px;
+    width: 50px;
+    margin-bottom: 20px;
+	margin-top: 200px;
+
+}
+
+.texto {
+    margin-top: -30px;
+    margin-left: 320px;
+    margin-right: 349px;
+    color: gray;
+    font-family: monospace;
+    margin-bottom: 30px;
+}
+
+.audio {
+    margin-top: 0px;
+    display: flex;
+	margin-left: 0px;
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto2 {
+	margin-top: 370px;
+    display: flex;
+	margin-left: 0px;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+	color: white;
+}
+
+.texto3 {
+	margin-top: 0px;
+    display: flex;
+	margin-left: 0px;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+	color: white;
+}
+
+.bule {
+    display: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 50px;
+    margin-bottom: 20px;
+	margin-top: 200px;
+}
