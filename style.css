@@ -44,15 +44,6 @@ color: #ffffff;
     margin-bottom: 30px;
 }
 
-.audio {
-    margin-top: 0px;
-    display: flex;
-	margin-left: 0px;
-    margin-right: 25px;
-    justify-content: center;
-    align-items: center;
-}
-
 .texto2 {
 	margin-top: 370px;
     display: flex;
