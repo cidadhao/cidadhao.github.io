@@ -1,43 +1,68 @@
-* {
-    background-color: #000000;
+html {
+    background-color: black;
 }
 
 h1 {
-text-align: center;
-color: #ffffff;
+    color: white;
 }
 
-.patrocinio {
+a:visited {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(136, 130, 130);
+    font-family: monospace;
+}
+
+.imagem-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 1cm;
+    background-image: url('troll.gif');
+    background-size: 100px 100px;
+}
+
+.imagem-container:hover {
+    background-image: url('trull.gif');
+    background-size: 100px 100px;
+}
+
+#troll {
+    width: 100px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px solid white;
+}
+
+#links-grid {
+    padding: 3px;
     text-align: center;
     display: block;
 }
 
-.troll {
-	display: auto;
-    margin-left: 550px;
-    margin-right: 550px;
-    width: 500px;
-    margin-bottom: 30px;
-	margin-top: 30px;
+#links-grid:active {
+    background-color: white;
+    transition: .1s ease-out; 
+    transform: scale(1.3);
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.trollo {
-    display: auto;
-    margin-left: 650px;
-    margin-right: 60px;
-    width: 500px;
-    margin-bottom: 30px;
-	margin-top: 320px;
-}
-
-.person {
-    display: auto;
-    margin-left: 562px;
-    margin-right: 0px;
-    width: 50px;
-    margin-bottom: 20px;
-	margin-top: 200px;
-
+#links-grid:hover {
+    background-color: white;
+    color: black;
+    transition: cubic-bezier(.73,1.51,.83,.67) .2s;
 }
 
 .texto {
@@ -47,15 +72,6 @@ color: #ffffff;
     color: gray;
     font-family: monospace;
     margin-bottom: 30px;
-}
-
-.audio {
-    margin-top: 0px;
-    display: flex;
-	margin-left: 0px;
-    margin-right: 25px;
-    justify-content: center;
-    align-items: center;
 }
 
 .texto2 {
@@ -78,11 +94,3 @@ color: #ffffff;
 	color: white;
 }
 
-.bule {
-    display: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 50px;
-    margin-bottom: 20px;
-	margin-top: 200px;
-}
