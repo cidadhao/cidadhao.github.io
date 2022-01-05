@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+#escolha {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.sites {
+    flex-direction: column;
+    color: white;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    text-align: center;
+}
+
+.div {
+    text-align: center;
+    border: black solid;
+    padding: 10px;
+}
+
+.div2 {
+    border: black solid;
+    text-align: center;
+    padding: 20px;
+}
