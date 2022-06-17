@@ -1,0 +1,50 @@
+body {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: calibri;
+  font-size: 20px;
+}
+
+.main {
+  height: fit-content;
+}
+
+.message {
+  height: fit-content;
+  width: 1000px;
+  align-items: center;  
+  justify-items: center;
+}
+
+.text {
+}
+
+#text {
+  color: black;
+  margin-right: 20px;
+}
+
+#refresh {
+  height: 60px;
+  width: 60px ;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-left: 25px;
+}
+
+i {
+  color: black;
+  font-size: 2rem;  
+}
+
+i:hover {
+  color: #636060
+}
+
+#refresh:hover {
+  cursor: pointer;
+}
